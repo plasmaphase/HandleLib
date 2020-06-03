@@ -9,7 +9,7 @@ uint32_t Rvals[MAX_NUM_HANDLES][MAX_SIZE];
 uint8_t HandleMem[MAX_NUM_HANDLES][HANDLE_SIZE];
 
 //helper function
-uint32_t Range( uint32_t lower, uint32_t upper )
+uint32_t Range( int32_t lower, int32_t upper )
 {
    return ( rand( ) % ( upper - lower + 1 ) ) + lower;
 }
