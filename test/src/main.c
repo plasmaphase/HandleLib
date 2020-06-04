@@ -5,7 +5,7 @@
 
 #define MAX_NUM_HANDLES 10
 
-uint32_t Rvals[MAX_NUM_HANDLES][MAX_SIZE];
+int32_t Rvals[MAX_NUM_HANDLES][MAX_SIZE];
 uint8_t HandleMem[MAX_NUM_HANDLES][HANDLE_SIZE];
 
 //helper function
